@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import UserInfo, { User } from './User';
+import UserInfo, { User } from './UserInfo';
 
 function UserList() {
     const [users, setUsers] = useState<User[]>([]);
@@ -16,7 +16,7 @@ function UserList() {
     }, []);
 
     return (
-        <article className="UserList">
+        <article className="UserList is-flex">
             {users.map((user: User, idx: number) => (
                 <UserInfo key={idx} data={user} />
             ))}
