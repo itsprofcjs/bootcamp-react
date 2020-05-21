@@ -11,13 +11,16 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "update:tools": "ncu -u && npm i"
+        "update:tools": "ncu -u && npm i",
+        "semantic-release": "semantic-release"
     },
     "dependencies": {
         "react": "16.13.1",
         "react-dom": "16.13.1"
     },
     "devDependencies": {
+        "@semantic-release/changelog": "5.0.1",
+        "@semantic-release/git": "9.0.0",
         "@testing-library/jest-dom": "5.8.0",
         "@testing-library/react": "10.0.4",
         "@testing-library/user-event": "10.3.3",
@@ -30,6 +33,7 @@
         "node-sass": "4.14.1",
         "prettier": "2.0.5",
         "react-scripts": "3.4.1",
+        "semantic-release": "17.0.7",
         "typescript": "3.9.3"
     },
     "eslintConfig": {
