@@ -1,16 +1,21 @@
 import React, { useState, useEffect } from 'react';
 
+import ApiService from '../../services/api.service';
+
 import UserInfo, { User } from './UserInfo';
 
 function UserList() {
     const [users, setUsers] = useState<User[]>([]);
 
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/users').then(
-            (response: Response) => {
-                response.json().then((data: User[]) => {
-                    setUsers(data);
-                });
+        ApiService.get('https://jsonplaceholder.typicode.com/users').subscribe(
+            (data: User[]) => {
+                console.log(data);
+                setUsers(data);
+            },
+            (error) => console.error(error),
+            () => {
+                console.log('Completed!');
             }
         );
     }, []);

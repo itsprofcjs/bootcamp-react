@@ -1,6 +1,7 @@
 import React from 'react';
 
-import UserList from './users/UserList';
+import Dummy from './components/dummy';
+import UserList from './components/users/UserList';
 
 import './styles/main.scss';
 
@@ -9,6 +10,8 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <p>Stay Tuned...</p>
+
+                <Dummy />
 
                 <UserList />
             </header>

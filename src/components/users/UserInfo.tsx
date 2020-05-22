@@ -38,7 +38,7 @@ function UserInfo(props: Props) {
                     <figure className="image is-64x64">
                         <img
                             src="https://bulma.io/images/placeholders/128x128.png"
-                            alt="Image"
+                            alt="avatar"
                         />
                     </figure>
                 </section>
@@ -57,30 +57,30 @@ function UserInfo(props: Props) {
 
                     <nav className="level is-mobile">
                         <section className="level-left">
-                            <a className="level-item" aria-label="reply">
+                            <button className="level-item" aria-label="reply">
                                 <span className="icon is-small">
                                     <i
                                         className="fas fa-reply"
                                         aria-hidden="true"
                                     ></i>
                                 </span>
-                            </a>
-                            <a className="level-item" aria-label="retweet">
+                            </button>
+                            <button className="level-item" aria-label="retweet">
                                 <span className="icon is-small">
                                     <i
                                         className="fas fa-retweet"
                                         aria-hidden="true"
                                     ></i>
                                 </span>
-                            </a>
-                            <a className="level-item" aria-label="like">
+                            </button>
+                            <button className="level-item" aria-label="like">
                                 <span className="icon is-small">
                                     <i
                                         className="fas fa-heart"
                                         aria-hidden="true"
                                     ></i>
                                 </span>
-                            </a>
+                            </button>
                         </section>
                     </nav>
                 </section>
