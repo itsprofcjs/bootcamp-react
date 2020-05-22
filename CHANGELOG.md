@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/itsprofcjs/bootcamp-react/compare/v1.0.0...v1.1.0) (2020-05-22)
+
+
+### Features
+
+* **user:** Basic user list ([18e2721](https://github.com/itsprofcjs/bootcamp-react/commit/18e272100e913534f1344e86cedf124f1f81bbb2))
+* **user:** User Ui fixes ([671fa3d](https://github.com/itsprofcjs/bootcamp-react/commit/671fa3deee1d676ed5e05bb80418825c1b89f461))
+* **users:** Now retry for api failed. Feel the app more robust :) ([71b157f](https://github.com/itsprofcjs/bootcamp-react/commit/71b157f78ad64d6b3515206ee3422ad85edff060))
+
 # [1.1.0-beta.1](https://github.com/itsprofcjs/bootcamp-react/compare/v1.0.0...v1.1.0-beta.1) (2020-05-22)
 
 
